@@ -1,17 +1,20 @@
 package JavaOOP1;
 
 public class NhanVien {
-    String ten;
-    int tuoi;
+    public String ten ;
+    public int tuoi;
+    public String congty;
 
-    public NhanVien(String ten, int tuoi) {
-        this.ten = ten;   // gán giá trị tham số vào biến class
+    public NhanVien(String ten, int tuoi, String congty) {
+        this.ten = ten;
         this.tuoi = tuoi;
+        this.congty = congty;
     }
 
-    public void hienThi() {
-        System.out.println("Tên: " + ten);
-        System.out.println("Tuổi: " + tuoi);
+    public void Show(){
+        System.out.println("Ten" + ten);
+        System.out.println("Tuổi" +tuoi);
+        System.out.println("Tên công ty" + congty);
     }
 }
 
