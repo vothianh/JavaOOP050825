@@ -1,4 +1,4 @@
-package JavaOOP1;
+package Buoi13;
 
 public class ThongTinTest {
 
